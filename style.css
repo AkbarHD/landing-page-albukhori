@@ -1345,6 +1345,134 @@
     }
 }
 
+/* Untuk tablet (max-width: 991.98px) */
+@media (max-width: 991.98px) {
+    .cta-wrapper {
+        padding: 2rem;
+        margin: 0 1rem;
+    }
+
+    .mega-title {
+        font-size: 2.6rem;
+    }
+
+    .lead {
+        font-size: 1.2rem;
+    }
+
+    .special-offer {
+        padding: 1.2rem;
+        margin: 1.5rem 0;
+    }
+
+    .offer-text {
+        font-size: 1.1rem;
+    }
+
+    .original-price {
+        font-size: 1.4rem;
+    }
+
+    .price-amount {
+        font-size: 2.4rem;
+    }
+}
+
+/* Untuk mobile landscape (max-width: 767.98px) */
+@media (max-width: 767.98px) {
+    .cta-wrapper {
+        padding: 1.5rem;
+        border-radius: 20px;
+    }
+
+    .mega-title {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+
+    .special-offer {
+        padding: 1rem;
+        border-radius: 15px;
+    }
+
+    .offer-text {
+        font-size: 1rem;
+    }
+
+    .price-container {
+        gap: 0.8rem;
+    }
+
+    .new-price {
+        padding: 1rem 2rem;
+    }
+
+    .price-amount {
+        font-size: 2rem;
+    }
+
+    .price-period {
+        font-size: 1rem;
+    }
+
+    .register-btn {
+        padding: 1rem 2.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+/* Untuk mobile portrait (max-width: 575.98px) */
+@media (max-width: 575.98px) {
+    .cta-wrapper {
+        padding: 1.2rem;
+        border-radius: 15px;
+        margin: 0 0.5rem;
+    }
+
+    .mega-title {
+        font-size: 1.8rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .special-offer {
+        padding: 0.8rem;
+        margin: 1rem 0;
+    }
+
+    .original-price {
+        font-size: 1.2rem;
+    }
+
+    .discount-badge {
+        font-size: 0.9rem;
+        padding: 0.3rem 1rem;
+    }
+
+    .new-price {
+        padding: 0.8rem 1.5rem;
+    }
+
+    .price-amount {
+        font-size: 1.8rem;
+    }
+
+    .price-period {
+        font-size: 0.9rem;
+    }
+
+    .register-btn {
+        padding: 0.8rem 2rem;
+        font-size: 1.1rem;
+    }
+}
+
 
 
 /* Responsive Design */
